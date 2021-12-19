@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,22 +11,24 @@
 			
 		<link rel="stylesheet" type="text/css" href="style.css">
 			
-		<script src="game_page.js"></script>
+		
 
 	</head>
 
     <body>
 
-        <h4 id="player1_name"></h4><span id="player1_score"></span>
-        <br>
-        <h4 id="player2_name"></h4><span id="player2_score"></span>
+    <h4 id="player1_name" class="text-success"></h4> <span id="player1_score" class="text-success"></span>
+    <br>
+    <h4 id="player2_name" class="text-success"></h4> <span id="player2_score" class="text-success"></span>
+    <br>
+    <br>
 
         <div class="container">
             <center>
                 <h2 style="color: white;">The Math Quiz Game!</h2>
 
-                <h3 id="Questioner_turn"></h3>
-                <h3 id="Answer_turn"></h3>
+                <h3 id="Questioner_turn" style="color:rgb(255, 251, 0);"></h3>
+                <h3 id="Answer_turn" style="color: rgb(255, 251, 0);"></h3>
 
                 <div id="output">
                 </div>
@@ -41,7 +44,7 @@
                 <button class="btn-success" onclick="send();" style="width: 10%; font-size: larger;">Send</button>
             </center>
         </div>
+        <script src="game_page.js"></script>
 
     </body>
-    
-</html>    
+    </html>
