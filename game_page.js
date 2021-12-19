@@ -24,5 +24,5 @@ function send(){
     row = question_word + input + check_button;  
     document.getElementById("output").innerHTML = row;
     document.getElementById("Number1_Input").value = "";
-    document
+    document.getElementById("Number2_Input").value = ""
 }
